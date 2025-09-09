@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-image: url(css-folder/spaceyy.jpg);
+    background-size: cover;
+}
+
+.face {
+    color: #0766fe;
+    padding: 5px;
+    width: 40%;
+    position: relative;
+    right: 75px;
+    top: 380px;
+}
+
+.face:hover {
+    position: relative;
+    top: 370px;
+    transition-duration: 0.5s;
+}
+
+.insta {
+    color: #E4405F;
+    padding: 5px;
+    width: 40%;
+    position: relative;
+    top: 333px;
+}
+
+.insta:hover {
+    position: relative;
+    top: 323px;
+    transition-duration: 0.5s;
+}
+
+.twitter {
+    color: #1d9bf0;
+    padding: 5px;
+    width: 40%;
+    position: relative;
+    left: 75px;
+    top: 286px;
+}
+
+.twitter:hover {
+    position: relative;
+    top: 276px;
+    transition-duration: 0.5s;
+}
+
+.h1 {
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    position: relative;
+    top: 220px;
+}

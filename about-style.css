@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-image: url(css-folder/spaceyy.jpg);
+    background-size: cover;
+}
+
+.li1 {
+    position: relative;
+    text-align: center;
+    right: 150px;
+    top: 300px;
+    font-size: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.li2 {
+    position: relative;
+    text-align: center;
+    top: 260px;
+    font-size: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.li3 {
+    position: relative;
+    text-align: center;
+    left: 150px;
+    top: 220px;
+    font-size: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.egypt {
+    position: relative;
+    text-align: center;
+    right: 160px;
+    top: 335px;
+}
+
+.age {
+    position: relative;
+    text-align: center;
+    right: 10px;
+    top: 300px;
+}
+
+.alex {
+    position: relative;
+    text-align: center;
+    left: 140px;
+    top: 258px;
+}

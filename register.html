@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="welcome to my first website">
+    <title>register</title>
+    <link rel="stylesheet" href="style-register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="website icon" type="png" href="assets/WW.png">
+</head>
+
+<body>
+    <form action="main.html" method="get">
+        <div class="wrapper2">
+            <h1 class="register1">register</h1>
+            <i class="fa-solid fa-user"></i>
+            <div class="divuser2">
+                <input type="text" class="userm1" required placeholder="Username" name="user">
+            </div>
+            <br>
+            <i class="fa-solid fa-lock"></i>
+            <div>
+                <input type="password" class="passm1" required placeholder="Password" name="pass" minlength="8">
+            </div>
+            <br>
+            <i class="fa-solid fa-lock"></i>
+            <div>
+                <input type="password" class="passm2" required placeholder="Type the Password again" name="pass"
+                    minlength="8">
+            </div>
+            <br>
+            <div>
+                <label for="country" class="country1">choose your country</label>
+                <select name="country" id="country" class="country2" required>
+                    <option value="1">egypt</option>
+                    <option value="2">moroco</option>
+                    <option value="3">america</option>
+                    <option value="4">canada</option>
+                    <option value="5">algeria</option>
+                    <option value="6">saudi arabia</option>
+                    <option value="7">germany</option>
+                    <option value="8">france</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="date" class="birth1">your birthdate</label>
+                <input type="date" class="birth2" required>
+            </div>
+            <br>
+            <input type="submit" value="register" class="reg22">
+        </div>
+    </form>
+</body>
+
+</html>
