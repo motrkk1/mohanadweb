@@ -29,6 +29,7 @@ body {
     top: 220px;
     font-size: 120%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
 }
 
 .egypt {

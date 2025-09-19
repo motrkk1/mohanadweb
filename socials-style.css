@@ -54,5 +54,6 @@ body {
     font-family: cursive;
     text-align: center;
     position: relative;
-    top: 220px;
+    top: 7.7em;
+    display: inline-block;
 }
